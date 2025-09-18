@@ -1,6 +1,6 @@
 📖 Overview
 
-A robust, industry-ready automation testing framework built on Selenium + Java + TestNG, designed to validate critical flows of the JPetStore demo application
+A robust, industry-ready automation testing framework built on Selenium + Java + TestNG, designed to validate critical flows of the JPetStore demo website
 .This framework is data-driven, supports cross-browser parallel execution, integrates dynamic Allure reporting with videos, screenshots, logs, and provides a scalable Page Object Factory design for maintainable test automation.
 
 Key highlights:
@@ -178,5 +178,6 @@ Badge in README auto-updates:
 💼 QA Automation Engineer Enthusiast
 
 🌐 GitHub Profile
+
 
 
