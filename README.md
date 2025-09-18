@@ -179,8 +179,4 @@ Badge in README auto-updates:
 
 🌐 GitHub Profile
 
-📜 License
 
-Licensed under the MIT License – free to use and modify.
-
-⚡ This README now directly matches your folder structure with resources/data/ for CSV, videos/ for recordings, reports/ for listeners, and Jenkins badge.
