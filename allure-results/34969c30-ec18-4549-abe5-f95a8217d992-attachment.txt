@@ -1,0 +1,8 @@
+Unavailable: HTTP method not allowed
+Command duration or timeout: 2 milliseconds
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [327839d3-ad48-44a3-bb7d-08921a66b1c3, getLog {type=browser}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 47672, moz:profile: C:\Users\raxit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 327839d3-ad48-44a3-bb7d-08921a66b1c3

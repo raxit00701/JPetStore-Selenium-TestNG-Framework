@@ -1,0 +1,2403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="40" passed="30" failed="10" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-17T13:15:40 IST" name="ParallelBrowserSuite" finished-at="2025-09-17T13:18:15 IST" duration-ms="154553">
+    <groups>
+    </groups>
+    <test started-at="2025-09-17T13:15:40 IST" name="FirefoxTest" finished-at="2025-09-17T13:17:38 IST" duration-ms="118374">
+      <class name="tests.Test_3">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.Test_3@4e928fbf]" started-at="2025-09-17T13:16:21 IST" name="setUp" finished-at="2025-09-17T13:16:27 IST" duration-ms="5956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_3@4e928fbf]" started-at="2025-09-17T13:16:27 IST" name="resetState" finished-at="2025-09-17T13:16:27 IST" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testProductSearch(java.lang.String)[pri:0, instance:tests.Test_3@4e928fbf]" started-at="2025-09-17T13:16:27 IST" name="testProductSearch" data-provider="signInData" finished-at="2025-09-17T13:16:29 IST" duration-ms="1401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fish]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSearch -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_3@4e928fbf]" started-at="2025-09-17T13:16:29 IST" name="resetState" finished-at="2025-09-17T13:16:30 IST" duration-ms="1364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testProductSearch(java.lang.String)[pri:0, instance:tests.Test_3@4e928fbf]" started-at="2025-09-17T13:16:30 IST" name="testProductSearch" data-provider="signInData" finished-at="2025-09-17T13:16:31 IST" duration-ms="689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[raptile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSearch -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_3@4e928fbf]" started-at="2025-09-17T13:16:31 IST" name="resetState" finished-at="2025-09-17T13:16:31 IST" duration-ms="545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testProductSearch(java.lang.String)[pri:0, instance:tests.Test_3@4e928fbf]" started-at="2025-09-17T13:16:31 IST" name="testProductSearch" data-provider="signInData" finished-at="2025-09-17T13:16:32 IST" duration-ms="743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSearch -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_3@4e928fbf]" started-at="2025-09-17T13:16:32 IST" name="resetState" finished-at="2025-09-17T13:16:33 IST" duration-ms="542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testProductSearch(java.lang.String)[pri:0, instance:tests.Test_3@4e928fbf]" started-at="2025-09-17T13:16:33 IST" name="testProductSearch" data-provider="signInData" finished-at="2025-09-17T13:16:34 IST" duration-ms="707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bird]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Test_3@4e928fbf]" started-at="2025-09-17T13:16:34 IST" name="tearDown" finished-at="2025-09-17T13:16:35 IST" duration-ms="1078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Test_3 -->
+      <class name="tests.Test_2">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.Test_2@f627d13]" started-at="2025-09-17T13:16:05 IST" name="setUp" finished-at="2025-09-17T13:16:12 IST" duration-ms="6804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_2@f627d13]" started-at="2025-09-17T13:16:12 IST" name="resetState" finished-at="2025-09-17T13:16:12 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testSignIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_2@f627d13]" started-at="2025-09-17T13:16:12 IST" name="testSignIn" data-provider="signInData" finished-at="2025-09-17T13:16:13 IST" duration-ms="922" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[validuser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Given css selector expression "" is invalid: InvalidSelectorError: Document.querySelector: '' is not a valid selector: ""
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ccf7e774-0e07-49f8-8129-fac32e2259c2, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31716, moz:profile: C:\Users\raxit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ccf7e774-0e07-49f8-8129-fac32e2259c2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Given css selector expression "" is invalid: InvalidSelectorError: Document.querySelector: '' is not a valid selector: ""
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ccf7e774-0e07-49f8-8129-fac32e2259c2, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31716, moz:profile: C:\Users\raxit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ccf7e774-0e07-49f8-8129-fac32e2259c2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at tests.Test_2.testSignIn(Test_2.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIn -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_2@f627d13]" started-at="2025-09-17T13:16:14 IST" name="resetState" finished-at="2025-09-17T13:16:14 IST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testSignIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_2@f627d13]" started-at="2025-09-17T13:16:14 IST" name="testSignIn" data-provider="signInData" finished-at="2025-09-17T13:16:15 IST" duration-ms="714" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invaliduser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid username or password]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Given css selector expression "" is invalid: InvalidSelectorError: Document.querySelector: '' is not a valid selector: ""
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ccf7e774-0e07-49f8-8129-fac32e2259c2, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31716, moz:profile: C:\Users\raxit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ccf7e774-0e07-49f8-8129-fac32e2259c2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Given css selector expression "" is invalid: InvalidSelectorError: Document.querySelector: '' is not a valid selector: ""
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ccf7e774-0e07-49f8-8129-fac32e2259c2, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31716, moz:profile: C:\Users\raxit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ccf7e774-0e07-49f8-8129-fac32e2259c2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at tests.Test_2.testSignIn(Test_2.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIn -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_2@f627d13]" started-at="2025-09-17T13:16:15 IST" name="resetState" finished-at="2025-09-17T13:16:16 IST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testSignIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_2@f627d13]" started-at="2025-09-17T13:16:16 IST" name="testSignIn" data-provider="signInData" finished-at="2025-09-17T13:16:16 IST" duration-ms="749" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[validuser2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Given css selector expression "" is invalid: InvalidSelectorError: Document.querySelector: '' is not a valid selector: ""
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ccf7e774-0e07-49f8-8129-fac32e2259c2, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31716, moz:profile: C:\Users\raxit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ccf7e774-0e07-49f8-8129-fac32e2259c2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Given css selector expression "" is invalid: InvalidSelectorError: Document.querySelector: '' is not a valid selector: ""
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ccf7e774-0e07-49f8-8129-fac32e2259c2, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31716, moz:profile: C:\Users\raxit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ccf7e774-0e07-49f8-8129-fac32e2259c2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at tests.Test_2.testSignIn(Test_2.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIn -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_2@f627d13]" started-at="2025-09-17T13:16:17 IST" name="resetState" finished-at="2025-09-17T13:16:17 IST" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testSignIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_2@f627d13]" started-at="2025-09-17T13:16:17 IST" name="testSignIn" data-provider="signInData" finished-at="2025-09-17T13:16:18 IST" duration-ms="655" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emptyuser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username is required]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Given css selector expression "" is invalid: InvalidSelectorError: Document.querySelector: '' is not a valid selector: ""
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ccf7e774-0e07-49f8-8129-fac32e2259c2, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31716, moz:profile: C:\Users\raxit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ccf7e774-0e07-49f8-8129-fac32e2259c2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Given css selector expression "" is invalid: InvalidSelectorError: Document.querySelector: '' is not a valid selector: ""
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ccf7e774-0e07-49f8-8129-fac32e2259c2, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31716, moz:profile: C:\Users\raxit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ccf7e774-0e07-49f8-8129-fac32e2259c2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at tests.Test_2.testSignIn(Test_2.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIn -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_2@f627d13]" started-at="2025-09-17T13:16:18 IST" name="resetState" finished-at="2025-09-17T13:16:18 IST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testSignIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_2@f627d13]" started-at="2025-09-17T13:16:18 IST" name="testSignIn" data-provider="signInData" finished-at="2025-09-17T13:16:19 IST" duration-ms="681" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[j2ee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[j2ee]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Given css selector expression "" is invalid: InvalidSelectorError: Document.querySelector: '' is not a valid selector: ""
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ccf7e774-0e07-49f8-8129-fac32e2259c2, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31716, moz:profile: C:\Users\raxit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ccf7e774-0e07-49f8-8129-fac32e2259c2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Given css selector expression "" is invalid: InvalidSelectorError: Document.querySelector: '' is not a valid selector: ""
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ccf7e774-0e07-49f8-8129-fac32e2259c2, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31716, moz:profile: C:\Users\raxit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ccf7e774-0e07-49f8-8129-fac32e2259c2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at tests.Test_2.testSignIn(Test_2.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Test_2@f627d13]" started-at="2025-09-17T13:16:19 IST" name="tearDown" finished-at="2025-09-17T13:16:21 IST" duration-ms="1203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Test_2 -->
+      <class name="tests.Test_1">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.Test_1@3116c353]" started-at="2025-09-17T13:15:40 IST" name="setUp" finished-at="2025-09-17T13:15:49 IST" duration-ms="8522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_1@3116c353]" started-at="2025-09-17T13:15:49 IST" name="resetState" finished-at="2025-09-17T13:15:50 IST" duration-ms="856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testSignUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_1@3116c353]" started-at="2025-09-17T13:15:50 IST" name="testSignUp" data-provider="signUpData" finished-at="2025-09-17T13:15:53 IST" duration-ms="2943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusersjosfojfsjo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[john.doe@example.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123 Main St]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Apt 4B]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[NY]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[10001]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_1@3116c353]" started-at="2025-09-17T13:15:53 IST" name="resetState" finished-at="2025-09-17T13:15:53 IST" duration-ms="539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testSignUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_1@3116c353]" started-at="2025-09-17T13:15:53 IST" name="testSignUp" data-provider="signUpData" finished-at="2025-09-17T13:15:56 IST" duration-ms="3174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invaliduserasdfoj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jane]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[jane.doe@invalid]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[456 Elm St]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Springfield]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[IL]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[62701]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Invalid email format]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_1@3116c353]" started-at="2025-09-17T13:15:57 IST" name="resetState" finished-at="2025-09-17T13:15:57 IST" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testSignUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_1@3116c353]" started-at="2025-09-17T13:15:57 IST" name="testSignUp" data-provider="signUpData" finished-at="2025-09-17T13:16:00 IST" duration-ms="3238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuserasfjo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mary]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[mary.smith@example.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[789 Oak St]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Chicago]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[IL]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[60601]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_1@3116c353]" started-at="2025-09-17T13:16:01 IST" name="resetState" finished-at="2025-09-17T13:16:01 IST" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testSignUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_1@3116c353]" started-at="2025-09-17T13:16:01 IST" name="testSignUp" data-provider="signUpData" finished-at="2025-09-17T13:16:04 IST" duration-ms="2610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shortpass2448389]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Wilson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[tom.wilson@example.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[5551234567]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[321 Pine St]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Boston]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[MA]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2108]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Password too short]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Test_1@3116c353]" started-at="2025-09-17T13:16:04 IST" name="tearDown" finished-at="2025-09-17T13:16:05 IST" duration-ms="1078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Test_1 -->
+      <class name="tests.Test_5">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.Test_5@3224a577]" started-at="2025-09-17T13:17:17 IST" name="setUp" finished-at="2025-09-17T13:17:23 IST" duration-ms="6317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_5@3224a577]" started-at="2025-09-17T13:17:23 IST" name="resetState" finished-at="2025-09-17T13:17:23 IST" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testFindOwner(java.lang.String)[pri:0, instance:tests.Test_5@3224a577]" started-at="2025-09-17T13:17:23 IST" name="testFindOwner" data-provider="signInData" finished-at="2025-09-17T13:17:27 IST" duration-ms="3651" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindOwner -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_5@3224a577]" started-at="2025-09-17T13:17:27 IST" name="resetState" finished-at="2025-09-17T13:17:28 IST" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testFindOwner(java.lang.String)[pri:0, instance:tests.Test_5@3224a577]" started-at="2025-09-17T13:17:28 IST" name="testFindOwner" data-provider="signInData" finished-at="2025-09-17T13:17:31 IST" duration-ms="2860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindOwner -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_5@3224a577]" started-at="2025-09-17T13:17:31 IST" name="resetState" finished-at="2025-09-17T13:17:31 IST" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testFindOwner(java.lang.String)[pri:0, instance:tests.Test_5@3224a577]" started-at="2025-09-17T13:17:31 IST" name="testFindOwner" data-provider="signInData" finished-at="2025-09-17T13:17:35 IST" duration-ms="3707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindOwner -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_5@3224a577]" started-at="2025-09-17T13:17:35 IST" name="resetState" finished-at="2025-09-17T13:17:36 IST" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testFindOwner(java.lang.String)[pri:0, instance:tests.Test_5@3224a577]" started-at="2025-09-17T13:17:36 IST" name="testFindOwner" data-provider="signInData" finished-at="2025-09-17T13:17:38 IST" duration-ms="2027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cena]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindOwner -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Test_5@3224a577]" started-at="2025-09-17T13:17:38 IST" name="tearDown" finished-at="2025-09-17T13:17:38 IST" duration-ms="802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Test_5 -->
+      <class name="tests.Test_4">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.Test_4@352ff4da]" started-at="2025-09-17T13:16:35 IST" name="setUp" finished-at="2025-09-17T13:16:42 IST" duration-ms="6690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_4@352ff4da]" started-at="2025-09-17T13:16:42 IST" name="resetState" finished-at="2025-09-17T13:16:42 IST" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testCheckoutFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_4@352ff4da]" started-at="2025-09-17T13:16:42 IST" name="testCheckoutFlow" data-provider="signInData" finished-at="2025-09-17T13:16:54 IST" duration-ms="12096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4111111111111111]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12/26]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123 Elm St]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Apt 4B]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[NY]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[10001]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutFlow -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_4@352ff4da]" started-at="2025-09-17T13:16:54 IST" name="resetState" finished-at="2025-09-17T13:16:56 IST" duration-ms="1166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testCheckoutFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_4@352ff4da]" started-at="2025-09-17T13:16:56 IST" name="testCheckoutFlow" data-provider="signInData" finished-at="2025-09-17T13:17:05 IST" duration-ms="8974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5555555555554444]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11/25]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jane]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[456 Oak Rd]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Los Angeles]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[CA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[90001]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutFlow -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_4@352ff4da]" started-at="2025-09-17T13:17:05 IST" name="resetState" finished-at="2025-09-17T13:17:05 IST" duration-ms="578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testCheckoutFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_4@352ff4da]" started-at="2025-09-17T13:17:05 IST" name="testCheckoutFlow" data-provider="signInData" finished-at="2025-09-17T13:17:16 IST" duration-ms="10188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890123456]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[01/24]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Broken]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Card]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[789 Pine Ln]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chicago]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[IL]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[60601]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Test_4@352ff4da]" started-at="2025-09-17T13:17:16 IST" name="tearDown" finished-at="2025-09-17T13:17:17 IST" duration-ms="942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Test_4 -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2025-09-17T13:15:40 IST" name="ChromeTest" finished-at="2025-09-17T13:18:15 IST" duration-ms="154553">
+      <class name="tests.Test_3">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.Test_3@19b843ba]" started-at="2025-09-17T13:16:19 IST" name="setUp" finished-at="2025-09-17T13:16:23 IST" duration-ms="3814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_3@19b843ba]" started-at="2025-09-17T13:16:23 IST" name="resetState" finished-at="2025-09-17T13:16:23 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testProductSearch(java.lang.String)[pri:0, instance:tests.Test_3@19b843ba]" started-at="2025-09-17T13:16:23 IST" name="testProductSearch" data-provider="signInData" finished-at="2025-09-17T13:16:24 IST" duration-ms="634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fish]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSearch -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_3@19b843ba]" started-at="2025-09-17T13:16:24 IST" name="resetState" finished-at="2025-09-17T13:16:24 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testProductSearch(java.lang.String)[pri:0, instance:tests.Test_3@19b843ba]" started-at="2025-09-17T13:16:24 IST" name="testProductSearch" data-provider="signInData" finished-at="2025-09-17T13:16:25 IST" duration-ms="739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[raptile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSearch -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_3@19b843ba]" started-at="2025-09-17T13:16:25 IST" name="resetState" finished-at="2025-09-17T13:16:26 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testProductSearch(java.lang.String)[pri:0, instance:tests.Test_3@19b843ba]" started-at="2025-09-17T13:16:26 IST" name="testProductSearch" data-provider="signInData" finished-at="2025-09-17T13:16:26 IST" duration-ms="319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSearch -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_3@19b843ba]" started-at="2025-09-17T13:16:26 IST" name="resetState" finished-at="2025-09-17T13:16:27 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testProductSearch(java.lang.String)[pri:0, instance:tests.Test_3@19b843ba]" started-at="2025-09-17T13:16:27 IST" name="testProductSearch" data-provider="signInData" finished-at="2025-09-17T13:16:27 IST" duration-ms="299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bird]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Test_3@19b843ba]" started-at="2025-09-17T13:16:28 IST" name="tearDown" finished-at="2025-09-17T13:16:28 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Test_3 -->
+      <class name="tests.Test_2">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.Test_2@2462cb01]" started-at="2025-09-17T13:16:07 IST" name="setUp" finished-at="2025-09-17T13:16:10 IST" duration-ms="2898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_2@2462cb01]" started-at="2025-09-17T13:16:10 IST" name="resetState" finished-at="2025-09-17T13:16:10 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testSignIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_2@2462cb01]" started-at="2025-09-17T13:16:10 IST" name="testSignIn" data-provider="signInData" finished-at="2025-09-17T13:16:12 IST" duration-ms="1147" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[validuser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: No selector specified
+  (Session info: chrome=140.0.7339.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8dc43c6de6be38e3f14558a1cc97bdb, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\raxit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8dc43c6de6be38e3f14558a1cc97bdb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: No selector specified
+  (Session info: chrome=140.0.7339.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8dc43c6de6be38e3f14558a1cc97bdb, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\raxit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8dc43c6de6be38e3f14558a1cc97bdb
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at tests.Test_2.testSignIn(Test_2.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIn -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_2@2462cb01]" started-at="2025-09-17T13:16:12 IST" name="resetState" finished-at="2025-09-17T13:16:12 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testSignIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_2@2462cb01]" started-at="2025-09-17T13:16:12 IST" name="testSignIn" data-provider="signInData" finished-at="2025-09-17T13:16:14 IST" duration-ms="1268" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invaliduser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid username or password]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: No selector specified
+  (Session info: chrome=140.0.7339.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8dc43c6de6be38e3f14558a1cc97bdb, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\raxit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8dc43c6de6be38e3f14558a1cc97bdb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: No selector specified
+  (Session info: chrome=140.0.7339.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8dc43c6de6be38e3f14558a1cc97bdb, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\raxit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8dc43c6de6be38e3f14558a1cc97bdb
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at tests.Test_2.testSignIn(Test_2.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIn -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_2@2462cb01]" started-at="2025-09-17T13:16:14 IST" name="resetState" finished-at="2025-09-17T13:16:14 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testSignIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_2@2462cb01]" started-at="2025-09-17T13:16:14 IST" name="testSignIn" data-provider="signInData" finished-at="2025-09-17T13:16:15 IST" duration-ms="1136" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[validuser2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: No selector specified
+  (Session info: chrome=140.0.7339.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8dc43c6de6be38e3f14558a1cc97bdb, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\raxit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8dc43c6de6be38e3f14558a1cc97bdb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: No selector specified
+  (Session info: chrome=140.0.7339.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8dc43c6de6be38e3f14558a1cc97bdb, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\raxit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8dc43c6de6be38e3f14558a1cc97bdb
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at tests.Test_2.testSignIn(Test_2.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIn -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_2@2462cb01]" started-at="2025-09-17T13:16:16 IST" name="resetState" finished-at="2025-09-17T13:16:16 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testSignIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_2@2462cb01]" started-at="2025-09-17T13:16:16 IST" name="testSignIn" data-provider="signInData" finished-at="2025-09-17T13:16:17 IST" duration-ms="999" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emptyuser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username is required]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: No selector specified
+  (Session info: chrome=140.0.7339.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8dc43c6de6be38e3f14558a1cc97bdb, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\raxit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8dc43c6de6be38e3f14558a1cc97bdb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: No selector specified
+  (Session info: chrome=140.0.7339.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8dc43c6de6be38e3f14558a1cc97bdb, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\raxit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8dc43c6de6be38e3f14558a1cc97bdb
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at tests.Test_2.testSignIn(Test_2.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIn -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_2@2462cb01]" started-at="2025-09-17T13:16:17 IST" name="resetState" finished-at="2025-09-17T13:16:18 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testSignIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_2@2462cb01]" started-at="2025-09-17T13:16:18 IST" name="testSignIn" data-provider="signInData" finished-at="2025-09-17T13:16:18 IST" duration-ms="834" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[j2ee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[j2ee]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: No selector specified
+  (Session info: chrome=140.0.7339.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8dc43c6de6be38e3f14558a1cc97bdb, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\raxit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8dc43c6de6be38e3f14558a1cc97bdb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: No selector specified
+  (Session info: chrome=140.0.7339.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8dc43c6de6be38e3f14558a1cc97bdb, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\raxit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8dc43c6de6be38e3f14558a1cc97bdb
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at tests.Test_2.testSignIn(Test_2.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Test_2@2462cb01]" started-at="2025-09-17T13:16:19 IST" name="tearDown" finished-at="2025-09-17T13:16:19 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Test_2 -->
+      <class name="tests.Test_1">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.Test_1@478db956]" started-at="2025-09-17T13:15:40 IST" name="setUp" finished-at="2025-09-17T13:15:44 IST" duration-ms="4023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_1@478db956]" started-at="2025-09-17T13:15:44 IST" name="resetState" finished-at="2025-09-17T13:15:45 IST" duration-ms="926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testSignUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_1@478db956]" started-at="2025-09-17T13:15:45 IST" name="testSignUp" data-provider="signUpData" finished-at="2025-09-17T13:15:50 IST" duration-ms="4724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusersjosfojfsjo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[john.doe@example.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123 Main St]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Apt 4B]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[NY]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[10001]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_1@478db956]" started-at="2025-09-17T13:15:50 IST" name="resetState" finished-at="2025-09-17T13:15:51 IST" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testSignUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_1@478db956]" started-at="2025-09-17T13:15:51 IST" name="testSignUp" data-provider="signUpData" finished-at="2025-09-17T13:15:55 IST" duration-ms="4009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invaliduserasdfoj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jane]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[jane.doe@invalid]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[456 Elm St]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Springfield]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[IL]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[62701]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Invalid email format]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_1@478db956]" started-at="2025-09-17T13:15:55 IST" name="resetState" finished-at="2025-09-17T13:15:56 IST" duration-ms="987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testSignUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_1@478db956]" started-at="2025-09-17T13:15:56 IST" name="testSignUp" data-provider="signUpData" finished-at="2025-09-17T13:16:01 IST" duration-ms="5314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuserasfjo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mary]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[mary.smith@example.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[789 Oak St]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Chicago]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[IL]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[60601]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_1@478db956]" started-at="2025-09-17T13:16:02 IST" name="resetState" finished-at="2025-09-17T13:16:03 IST" duration-ms="1190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testSignUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_1@478db956]" started-at="2025-09-17T13:16:03 IST" name="testSignUp" data-provider="signUpData" finished-at="2025-09-17T13:16:06 IST" duration-ms="3253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shortpass2448389]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Wilson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[tom.wilson@example.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[5551234567]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[321 Pine St]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Boston]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[MA]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2108]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Password too short]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Test_1@478db956]" started-at="2025-09-17T13:16:07 IST" name="tearDown" finished-at="2025-09-17T13:16:07 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Test_1 -->
+      <class name="tests.Test_5">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.Test_5@77659b30]" started-at="2025-09-17T13:17:12 IST" name="setUp" finished-at="2025-09-17T13:17:46 IST" duration-ms="33246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_5@77659b30]" started-at="2025-09-17T13:17:46 IST" name="resetState" finished-at="2025-09-17T13:17:46 IST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testFindOwner(java.lang.String)[pri:0, instance:tests.Test_5@77659b30]" started-at="2025-09-17T13:17:46 IST" name="testFindOwner" data-provider="signInData" finished-at="2025-09-17T13:17:52 IST" duration-ms="6095" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindOwner -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_5@77659b30]" started-at="2025-09-17T13:17:52 IST" name="resetState" finished-at="2025-09-17T13:17:53 IST" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testFindOwner(java.lang.String)[pri:0, instance:tests.Test_5@77659b30]" started-at="2025-09-17T13:17:53 IST" name="testFindOwner" data-provider="signInData" finished-at="2025-09-17T13:17:59 IST" duration-ms="6361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindOwner -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_5@77659b30]" started-at="2025-09-17T13:17:59 IST" name="resetState" finished-at="2025-09-17T13:18:00 IST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testFindOwner(java.lang.String)[pri:0, instance:tests.Test_5@77659b30]" started-at="2025-09-17T13:18:00 IST" name="testFindOwner" data-provider="signInData" finished-at="2025-09-17T13:18:08 IST" duration-ms="7884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindOwner -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_5@77659b30]" started-at="2025-09-17T13:18:08 IST" name="resetState" finished-at="2025-09-17T13:18:08 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testFindOwner(java.lang.String)[pri:0, instance:tests.Test_5@77659b30]" started-at="2025-09-17T13:18:08 IST" name="testFindOwner" data-provider="signInData" finished-at="2025-09-17T13:18:14 IST" duration-ms="6282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cena]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindOwner -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Test_5@77659b30]" started-at="2025-09-17T13:18:14 IST" name="tearDown" finished-at="2025-09-17T13:18:15 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Test_5 -->
+      <class name="tests.Test_4">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.Test_4@64ec96c6]" started-at="2025-09-17T13:16:28 IST" name="setUp" finished-at="2025-09-17T13:16:31 IST" duration-ms="2840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_4@64ec96c6]" started-at="2025-09-17T13:16:31 IST" name="resetState" finished-at="2025-09-17T13:16:31 IST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testCheckoutFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_4@64ec96c6]" started-at="2025-09-17T13:16:31 IST" name="testCheckoutFlow" data-provider="signInData" finished-at="2025-09-17T13:16:45 IST" duration-ms="14112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4111111111111111]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12/26]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123 Elm St]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Apt 4B]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[NY]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[10001]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutFlow -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_4@64ec96c6]" started-at="2025-09-17T13:16:46 IST" name="resetState" finished-at="2025-09-17T13:16:46 IST" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testCheckoutFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_4@64ec96c6]" started-at="2025-09-17T13:16:46 IST" name="testCheckoutFlow" data-provider="signInData" finished-at="2025-09-17T13:17:01 IST" duration-ms="14993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5555555555554444]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11/25]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jane]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[456 Oak Rd]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Los Angeles]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[CA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[90001]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutFlow -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:tests.Test_4@64ec96c6]" started-at="2025-09-17T13:17:01 IST" name="resetState" finished-at="2025-09-17T13:17:02 IST" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="testCheckoutFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_4@64ec96c6]" started-at="2025-09-17T13:17:02 IST" name="testCheckoutFlow" data-provider="signInData" finished-at="2025-09-17T13:17:12 IST" duration-ms="10090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890123456]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[01/24]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Broken]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Card]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[789 Pine Ln]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chicago]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[IL]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[60601]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Test_4@64ec96c6]" started-at="2025-09-17T13:17:12 IST" name="tearDown" finished-at="2025-09-17T13:17:12 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Test_4 -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- ParallelBrowserSuite -->
+</testng-results>

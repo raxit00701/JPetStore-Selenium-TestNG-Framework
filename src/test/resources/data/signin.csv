@@ -1,0 +1,6 @@
+username,password,testType,expectedResult
+validuser1,Password123,positive,
+invaliduser,wrongpass,negative,Invalid username or password
+validuser2,Password456,positive,
+emptyuser,,negative,Username is required
+j2ee,j2ee,positive,

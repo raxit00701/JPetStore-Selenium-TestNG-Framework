@@ -1,0 +1,1 @@
+{"uuid":"608ad239-688e-4430-a11c-bdd2fb95cb1b","name":"base.BaseTest.resetState","children":["18cabbf3-2d40-4f50-b35c-fcd35dd66287"],"description":"","befores":[{"name":"resetState","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1758196478954,"stop":1758196479945}],"afters":[],"start":1758196478954,"stop":1758196479945}

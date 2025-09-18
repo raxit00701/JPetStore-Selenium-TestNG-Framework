@@ -1,0 +1,1 @@
+Recording discarded for pass/skip: tests.Test_3.testProductSearch__20250917_131147_213.mov

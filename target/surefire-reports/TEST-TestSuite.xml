@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="155.553" tests="40" errors="0" skipped="0" failures="10">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="C:\Users\raxit\IdeaProjects\pet_frame\target\test-classes;C:\Users\raxit\IdeaProjects\pet_frame\target\classes;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-java\4.23.0\selenium-java-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-api\4.23.0\selenium-api-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.23.0\selenium-chrome-driver-4.23.0.jar;C:\Users\raxit\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.23.0\selenium-chromium-driver-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-json\4.23.0\selenium-json-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.23.0\selenium-manager-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.23.0\selenium-devtools-v125-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.23.0\selenium-devtools-v126-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.23.0\selenium-devtools-v127-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.23.0\selenium-devtools-v85-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.23.0\selenium-edge-driver-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.23.0\selenium-firefox-driver-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-http\4.23.0\selenium-http-4.23.0.jar;C:\Users\raxit\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.23.0\selenium-ie-driver-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.23.0\selenium-remote-driver-4.23.0.jar;C:\Users\raxit\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\raxit\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\raxit\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\raxit\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\raxit\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\raxit\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\raxit\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\opentelemetry-api\1.40.0\opentelemetry-api-1.40.0.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\opentelemetry-context\1.40.0\opentelemetry-context-1.40.0.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.40.0\opentelemetry-exporter-logging-1.40.0.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.40.0\opentelemetry-sdk-common-1.40.0.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.40.0\opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.40.0\opentelemetry-sdk-extension-autoconfigure-1.40.0.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.40.0-alpha\opentelemetry-api-incubator-1.40.0-alpha.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.40.0\opentelemetry-sdk-trace-1.40.0.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.40.0\opentelemetry-sdk-1.40.0.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.40.0\opentelemetry-sdk-metrics-1.40.0.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.40.0\opentelemetry-sdk-logs-1.40.0.jar;C:\Users\raxit\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-os\4.23.0\selenium-os-4.23.0.jar;C:\Users\raxit\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.23.0\selenium-safari-driver-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-support\4.23.0\selenium-support-4.23.0.jar;C:\Users\raxit\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\raxit\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\raxit\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\raxit\.m2\repository\com\github\stephenc\monte\monte-screen-recorder\0.7.7.0\monte-screen-recorder-0.7.7.0.jar;C:\Users\raxit\.m2\repository\io\qameta\allure\allure-testng\2.27.0\allure-testng-2.27.0.jar;C:\Users\raxit\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\raxit\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\raxit\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;C:\Users\raxit\.m2\repository\com\opencsv\opencsv\5.9\opencsv-5.9.jar;C:\Users\raxit\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\raxit\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\raxit\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\raxit\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\raxit\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\raxit\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\raxit\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\raxit\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;C:\Users\raxit\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\raxit\AppData\Local\Temp\surefire12973819473701511102\surefirebooter-20250917131539386_3.jar C:\Users\raxit\AppData\Local\Temp\surefire12973819473701511102 2025-09-17T13-15-39_215-jvmRun1 surefire-20250917131539386_1tmp surefire_0-20250917131539386_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\raxit\IdeaProjects\pet_frame\target\test-classes;C:\Users\raxit\IdeaProjects\pet_frame\target\classes;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-java\4.23.0\selenium-java-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-api\4.23.0\selenium-api-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.23.0\selenium-chrome-driver-4.23.0.jar;C:\Users\raxit\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.23.0\selenium-chromium-driver-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-json\4.23.0\selenium-json-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.23.0\selenium-manager-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.23.0\selenium-devtools-v125-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.23.0\selenium-devtools-v126-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.23.0\selenium-devtools-v127-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.23.0\selenium-devtools-v85-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.23.0\selenium-edge-driver-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.23.0\selenium-firefox-driver-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-http\4.23.0\selenium-http-4.23.0.jar;C:\Users\raxit\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.23.0\selenium-ie-driver-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.23.0\selenium-remote-driver-4.23.0.jar;C:\Users\raxit\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\raxit\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\raxit\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\raxit\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\raxit\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\raxit\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\raxit\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\opentelemetry-api\1.40.0\opentelemetry-api-1.40.0.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\opentelemetry-context\1.40.0\opentelemetry-context-1.40.0.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.40.0\opentelemetry-exporter-logging-1.40.0.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.40.0\opentelemetry-sdk-common-1.40.0.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.40.0\opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.40.0\opentelemetry-sdk-extension-autoconfigure-1.40.0.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.40.0-alpha\opentelemetry-api-incubator-1.40.0-alpha.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.40.0\opentelemetry-sdk-trace-1.40.0.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.40.0\opentelemetry-sdk-1.40.0.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.40.0\opentelemetry-sdk-metrics-1.40.0.jar;C:\Users\raxit\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.40.0\opentelemetry-sdk-logs-1.40.0.jar;C:\Users\raxit\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-os\4.23.0\selenium-os-4.23.0.jar;C:\Users\raxit\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.23.0\selenium-safari-driver-4.23.0.jar;C:\Users\raxit\.m2\repository\org\seleniumhq\selenium\selenium-support\4.23.0\selenium-support-4.23.0.jar;C:\Users\raxit\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\raxit\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\raxit\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\raxit\.m2\repository\com\github\stephenc\monte\monte-screen-recorder\0.7.7.0\monte-screen-recorder-0.7.7.0.jar;C:\Users\raxit\.m2\repository\io\qameta\allure\allure-testng\2.27.0\allure-testng-2.27.0.jar;C:\Users\raxit\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\raxit\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\raxit\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;C:\Users\raxit\.m2\repository\com\opencsv\opencsv\5.9\opencsv-5.9.jar;C:\Users\raxit\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\raxit\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\raxit\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\raxit\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\raxit\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\raxit\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\raxit\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\raxit\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;C:\Users\raxit\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\raxit"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\raxit\IdeaProjects\pet_frame"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\raxit\AppData\Local\Temp\surefire12973819473701511102\surefirebooter-20250917131539386_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
+    <property name="user.name" value="raxit"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\raxit\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\raxit\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="C:\Users\raxit\IdeaProjects\pet_frame"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-19\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\MinGW\bin;C:\Program Files\nodejs;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\raxit\AppData\Local\Android\Sdk\tools\bin;C:\Users\raxit\AppData\Local\Android\Sdk\tools;C:\Users\raxit\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Maven\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\raxit\AppData\Local\Programs\Python\Python311\Doc\Scripts\;C:\Users\raxit\AppData\Local\Programs\Python\Python311\Doc\;C:\Users\raxit\AppData\Local\Programs\Python\Launcher\;C:\Users\raxit\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\raxit\AppData\Local\Programs\Python\Python311\;C:\Users\raxit\AppData\Local\Microsoft\WindowsApps;C:\Users\raxit\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\MinGW\bin;C:\Program Files\nodejs;C:\Program Files\JetBrains\PyCharm 2024.1\bin;;C:\Users\raxit\AppData\Roaming\npm;C:\Users\raxit\allure-commandline-2.13.9\allure-2.13.9\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.6+8-LTS-188"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testSignUp[testusersjosfojfsjo, Password123, Password123, John, Doe, john.doe@example.com, 1234567890, 123 Main St, Apt 4B, New York, NY, 10001, USA, positive, ](1)" classname="tests.Test_1" time="0.745">
+    <system-out><![CDATA[13:15:39.983 [main] DEBUG org.testng.TestNG -- suiteXmlPath: "C:\Users\raxit\IdeaProjects\pet_frame\testng.xml"
+13:15:40.635 [TestNG-tests-1] ERROR io.qameta.allure.AllureLifecycle -- Could not add attachment: no test is running
+13:15:40.635 [TestNG-tests-2] ERROR io.qameta.allure.AllureLifecycle -- Could not add attachment: no test is running
+Clicked Sign Up link
+Clicked Sign Up link
+]]></system-out>
+    <system-err><![CDATA[Sept 17, 2025 1:15:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 140
+Sept 17, 2025 1:15:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 140.0.7339.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testSignUp[testusersjosfojfsjo, Password123, Password123, John, Doe, john.doe@example.com, 1234567890, 123 Main St, Apt 4B, New York, NY, 10001, USA, positive, ](1)" classname="tests.Test_1" time="1.906">
+    <system-out><![CDATA[Clicked Sign Up link
+]]></system-out>
+  </testcase>
+  <testcase name="testSignUp[invaliduserasdfoj, pass, pass123, Jane, Doe, jane.doe@invalid, 123, 456 Elm St, , Springfield, IL, 62701, USA, negative, Invalid email format](2)" classname="tests.Test_1" time="1.851">
+    <system-out><![CDATA[Clicked Sign Up link
+]]></system-out>
+  </testcase>
+  <testcase name="testSignUp[invaliduserasdfoj, pass, pass123, Jane, Doe, jane.doe@invalid, 123, 456 Elm St, , Springfield, IL, 62701, USA, negative, Invalid email format](2)" classname="tests.Test_1" time="0.45"/>
+  <testcase name="testSignUp[testuserasfjo, Password456, Password456, Mary, Smith, mary.smith@example.com, 9876543210, 789 Oak St, , Chicago, IL, 60601, USA, positive, ](3)" classname="tests.Test_1" time="3.401">
+    <system-out><![CDATA[Clicked Sign Up link
+Clicked Sign Up link
+]]></system-out>
+  </testcase>
+  <testcase name="testSignUp[testuserasfjo, Password456, Password456, Mary, Smith, mary.smith@example.com, 9876543210, 789 Oak St, , Chicago, IL, 60601, USA, positive, ](3)" classname="tests.Test_1" time="0.796">
+    <system-out><![CDATA[Clicked Sign Up link
+]]></system-out>
+  </testcase>
+  <testcase name="testSignUp[shortpass2448389, pass, pass, Tom, Wilson, tom.wilson@example.com, 5551234567, 321 Pine St, , Boston, MA, 2108, USA, negative, Password too short](4)" classname="tests.Test_1" time="0.803">
+    <system-out><![CDATA[Clicked Sign Up link
+]]></system-out>
+  </testcase>
+  <testcase name="testSignUp[shortpass2448389, pass, pass, Tom, Wilson, tom.wilson@example.com, 5551234567, 321 Pine St, , Boston, MA, 2108, USA, negative, Password too short](4)" classname="tests.Test_1" time="3.96">
+    <system-out><![CDATA[🔻 Browser closed after all tests in class.
+]]></system-out>
+  </testcase>
+  <testcase name="testSignIn[validuser1, Password123, positive, ](1)" classname="tests.Test_2" time="1.537">
+    <failure message="invalid selector: No selector specified&#10;  (Session info: chrome=140.0.7339.80)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception&#10;Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d8dc43c6de6be38e3f14558a1cc97bdb, findElement {using=css selector, value=}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\raxit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d8dc43c6de6be38e3f14558a1cc97bdb" type="org.openqa.selenium.InvalidSelectorException"><![CDATA[org.openqa.selenium.InvalidSelectorException: 
+invalid selector: No selector specified
+  (Session info: chrome=140.0.7339.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8dc43c6de6be38e3f14558a1cc97bdb, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\raxit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8dc43c6de6be38e3f14558a1cc97bdb
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at tests.Test_2.testSignIn(Test_2.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[🔻 Browser closed after all tests in class.
+Clicked Sign In link
+Entered username: validuser1
+Entered password
+]]></system-out>
+    <system-err><![CDATA[Sept 17, 2025 1:16:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 140
+Sept 17, 2025 1:16:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 140.0.7339.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testSignIn[validuser1, Password123, positive, ](1)" classname="tests.Test_2" time="1.213">
+    <failure message="Given css selector expression &quot;&quot; is invalid: InvalidSelectorError: Document.querySelector: &apos;&apos; is not a valid selector: &quot;&quot;&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception&#10;Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [ccf7e774-0e07-49f8-8129-fac32e2259c2, findElement {using=css selector, value=}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31716, moz:profile: C:\Users\raxit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: ccf7e774-0e07-49f8-8129-fac32e2259c2" type="org.openqa.selenium.InvalidSelectorException"><![CDATA[org.openqa.selenium.InvalidSelectorException: 
+Given css selector expression "" is invalid: InvalidSelectorError: Document.querySelector: '' is not a valid selector: ""
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ccf7e774-0e07-49f8-8129-fac32e2259c2, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31716, moz:profile: C:\Users\raxit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ccf7e774-0e07-49f8-8129-fac32e2259c2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at tests.Test_2.testSignIn(Test_2.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[Clicked Sign In link
+Clicked Sign In link
+Entered username: validuser1
+Entered password
+Entered username: invaliduser
+]]></system-out>
+  </testcase>
+  <testcase name="testSignIn[invaliduser, wrongpass, negative, Invalid username or password](2)" classname="tests.Test_2" time="1.544">
+    <failure message="invalid selector: No selector specified&#10;  (Session info: chrome=140.0.7339.80)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception&#10;Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d8dc43c6de6be38e3f14558a1cc97bdb, findElement {using=css selector, value=}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\raxit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d8dc43c6de6be38e3f14558a1cc97bdb" type="org.openqa.selenium.InvalidSelectorException"><![CDATA[org.openqa.selenium.InvalidSelectorException: 
+invalid selector: No selector specified
+  (Session info: chrome=140.0.7339.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8dc43c6de6be38e3f14558a1cc97bdb, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\raxit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8dc43c6de6be38e3f14558a1cc97bdb
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at tests.Test_2.testSignIn(Test_2.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[Entered password
+]]></system-out>
+  </testcase>
+  <testcase name="testSignIn[invaliduser, wrongpass, negative, Invalid username or password](2)" classname="tests.Test_2" time="0.88">
+    <failure message="Given css selector expression &quot;&quot; is invalid: InvalidSelectorError: Document.querySelector: &apos;&apos; is not a valid selector: &quot;&quot;&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception&#10;Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [ccf7e774-0e07-49f8-8129-fac32e2259c2, findElement {using=css selector, value=}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31716, moz:profile: C:\Users\raxit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: ccf7e774-0e07-49f8-8129-fac32e2259c2" type="org.openqa.selenium.InvalidSelectorException"><![CDATA[org.openqa.selenium.InvalidSelectorException: 
+Given css selector expression "" is invalid: InvalidSelectorError: Document.querySelector: '' is not a valid selector: ""
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ccf7e774-0e07-49f8-8129-fac32e2259c2, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31716, moz:profile: C:\Users\raxit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ccf7e774-0e07-49f8-8129-fac32e2259c2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at tests.Test_2.testSignIn(Test_2.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[Clicked Sign In link
+Entered username: invaliduser
+Entered password
+Clicked Sign In link
+Entered username: validuser2
+]]></system-out>
+  </testcase>
+  <testcase name="testSignIn[validuser2, Password456, positive, ](3)" classname="tests.Test_2" time="0.164">
+    <failure message="invalid selector: No selector specified&#10;  (Session info: chrome=140.0.7339.80)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception&#10;Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d8dc43c6de6be38e3f14558a1cc97bdb, findElement {using=css selector, value=}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\raxit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d8dc43c6de6be38e3f14558a1cc97bdb" type="org.openqa.selenium.InvalidSelectorException"><![CDATA[org.openqa.selenium.InvalidSelectorException: 
+invalid selector: No selector specified
+  (Session info: chrome=140.0.7339.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8dc43c6de6be38e3f14558a1cc97bdb, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\raxit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8dc43c6de6be38e3f14558a1cc97bdb
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at tests.Test_2.testSignIn(Test_2.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[Entered password
+]]></system-out>
+  </testcase>
+  <testcase name="testSignIn[validuser2, Password456, positive, ](3)" classname="tests.Test_2" time="0.605">
+    <failure message="Given css selector expression &quot;&quot; is invalid: InvalidSelectorError: Document.querySelector: &apos;&apos; is not a valid selector: &quot;&quot;&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception&#10;Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [ccf7e774-0e07-49f8-8129-fac32e2259c2, findElement {using=css selector, value=}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31716, moz:profile: C:\Users\raxit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: ccf7e774-0e07-49f8-8129-fac32e2259c2" type="org.openqa.selenium.InvalidSelectorException"><![CDATA[org.openqa.selenium.InvalidSelectorException: 
+Given css selector expression "" is invalid: InvalidSelectorError: Document.querySelector: '' is not a valid selector: ""
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ccf7e774-0e07-49f8-8129-fac32e2259c2, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31716, moz:profile: C:\Users\raxit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ccf7e774-0e07-49f8-8129-fac32e2259c2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at tests.Test_2.testSignIn(Test_2.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[Clicked Sign In link
+Entered username: validuser2
+Entered password
+]]></system-out>
+  </testcase>
+  <testcase name="testSignIn[emptyuser, , negative, Username is required](4)" classname="tests.Test_2" time="0.228">
+    <failure message="invalid selector: No selector specified&#10;  (Session info: chrome=140.0.7339.80)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception&#10;Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d8dc43c6de6be38e3f14558a1cc97bdb, findElement {using=css selector, value=}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\raxit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d8dc43c6de6be38e3f14558a1cc97bdb" type="org.openqa.selenium.InvalidSelectorException"><![CDATA[org.openqa.selenium.InvalidSelectorException: 
+invalid selector: No selector specified
+  (Session info: chrome=140.0.7339.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8dc43c6de6be38e3f14558a1cc97bdb, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\raxit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8dc43c6de6be38e3f14558a1cc97bdb
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at tests.Test_2.testSignIn(Test_2.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[Clicked Sign In link
+Entered username: emptyuser
+Entered password
+]]></system-out>
+  </testcase>
+  <testcase name="testSignIn[emptyuser, , negative, Username is required](4)" classname="tests.Test_2" time="0.438">
+    <failure message="Given css selector expression &quot;&quot; is invalid: InvalidSelectorError: Document.querySelector: &apos;&apos; is not a valid selector: &quot;&quot;&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception&#10;Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [ccf7e774-0e07-49f8-8129-fac32e2259c2, findElement {using=css selector, value=}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31716, moz:profile: C:\Users\raxit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: ccf7e774-0e07-49f8-8129-fac32e2259c2" type="org.openqa.selenium.InvalidSelectorException"><![CDATA[org.openqa.selenium.InvalidSelectorException: 
+Given css selector expression "" is invalid: InvalidSelectorError: Document.querySelector: '' is not a valid selector: ""
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ccf7e774-0e07-49f8-8129-fac32e2259c2, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31716, moz:profile: C:\Users\raxit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ccf7e774-0e07-49f8-8129-fac32e2259c2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at tests.Test_2.testSignIn(Test_2.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[Clicked Sign In link
+Entered username: emptyuser
+Entered password
+]]></system-out>
+  </testcase>
+  <testcase name="testSignIn[j2ee, j2ee, positive, ](5)" classname="tests.Test_2" time="0.311">
+    <failure message="invalid selector: No selector specified&#10;  (Session info: chrome=140.0.7339.80)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception&#10;Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d8dc43c6de6be38e3f14558a1cc97bdb, findElement {using=css selector, value=}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\raxit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d8dc43c6de6be38e3f14558a1cc97bdb" type="org.openqa.selenium.InvalidSelectorException"><![CDATA[org.openqa.selenium.InvalidSelectorException: 
+invalid selector: No selector specified
+  (Session info: chrome=140.0.7339.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8dc43c6de6be38e3f14558a1cc97bdb, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\raxit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8dc43c6de6be38e3f14558a1cc97bdb
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at tests.Test_2.testSignIn(Test_2.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[Clicked Sign In link
+Entered username: j2ee
+Entered password
+]]></system-out>
+  </testcase>
+  <testcase name="testSignIn[j2ee, j2ee, positive, ](5)" classname="tests.Test_2" time="0.946">
+    <failure message="Given css selector expression &quot;&quot; is invalid: InvalidSelectorError: Document.querySelector: &apos;&apos; is not a valid selector: &quot;&quot;&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception&#10;Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [ccf7e774-0e07-49f8-8129-fac32e2259c2, findElement {using=css selector, value=}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31716, moz:profile: C:\Users\raxit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: ccf7e774-0e07-49f8-8129-fac32e2259c2" type="org.openqa.selenium.InvalidSelectorException"><![CDATA[org.openqa.selenium.InvalidSelectorException: 
+Given css selector expression "" is invalid: InvalidSelectorError: Document.querySelector: '' is not a valid selector: ""
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ccf7e774-0e07-49f8-8129-fac32e2259c2, findElement {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31716, moz:profile: C:\Users\raxit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ccf7e774-0e07-49f8-8129-fac32e2259c2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at tests.Test_2.testSignIn(Test_2.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[Clicked Sign In link
+🔻 Browser closed after all tests in class.
+Entered username: j2ee
+Entered password
+]]></system-out>
+  </testcase>
+  <testcase name="testProductSearch[fish](1)" classname="tests.Test_3" time="0.878">
+    <system-out><![CDATA[🔻 Browser closed after all tests in class.
+🔍 Searching for: fish
+✅ Search triggered for: fish
+✅ Search triggered for: fish
+]]></system-out>
+    <system-err><![CDATA[Sept 17, 2025 1:16:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 140
+Sept 17, 2025 1:16:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 140.0.7339.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testProductSearch[fish](1)" classname="tests.Test_3" time="1.504">
+    <system-out><![CDATA[🔻 Browser closed after all tests in class.
+✅ Search triggered for: fish
+✅ Search triggered for: fish
+]]></system-out>
+  </testcase>
+  <testcase name="testProductSearch[raptile](2)" classname="tests.Test_3" time="0.951">
+    <system-out><![CDATA[🔍 Searching for: raptile
+✅ Search triggered for: raptile
+✅ Search triggered for: raptile
+]]></system-out>
+  </testcase>
+  <testcase name="testProductSearch[raptile](2)" classname="tests.Test_3" time="0.828">
+    <system-out><![CDATA[🔍 Searching for: raptile
+✅ Search triggered for: raptile
+✅ Search triggered for: raptile
+]]></system-out>
+    <system-err><![CDATA[Sept 17, 2025 1:16:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 140
+Sept 17, 2025 1:16:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 140.0.7339.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testProductSearch[cat](3)" classname="tests.Test_3" time="0.898">
+    <system-out><![CDATA[🔍 Searching for: cat
+✅ Search triggered for: cat
+✅ Search triggered for: cat
+]]></system-out>
+  </testcase>
+  <testcase name="testProductSearch[cat](3)" classname="tests.Test_3" time="0.888">
+    <system-out><![CDATA[Running test with data: cardNumber=4111111111111111, expiry=12/26, firstName=John, lastName=Doe, address1=123 Elm St, address2=Apt 4B, city=New York, state=NY, zip=10001, country=USA
+🔍 Searching for: cat
+✅ Search triggered for: cat
+✅ Search triggered for: cat
+]]></system-out>
+  </testcase>
+  <testcase name="testProductSearch[bird](4)" classname="tests.Test_3" time="0.608">
+    <system-out><![CDATA[🔍 Searching for: bird
+✅ Search triggered for: bird
+✅ Search triggered for: bird
+🔍 Searching for: fish
+]]></system-out>
+  </testcase>
+  <testcase name="testProductSearch[bird](4)" classname="tests.Test_3" time="0.889">
+    <system-out><![CDATA[🔍 Searching for: bird
+✅ Search triggered for: bird
+✅ Search triggered for: bird
+]]></system-out>
+  </testcase>
+  <testcase name="testCheckoutFlow[4111111111111111, 12/26, John, Doe, 123 Elm St, Apt 4B, New York, NY, 10001, USA](1)" classname="tests.Test_4" time="3.445">
+    <system-out><![CDATA[🔻 Browser closed after all tests in class.
+Running test with data: cardNumber=4111111111111111, expiry=12/26, firstName=John, lastName=Doe, address1=123 Elm St, address2=Apt 4B, city=New York, state=NY, zip=10001, country=USA
+]]></system-out>
+  </testcase>
+  <testcase name="testCheckoutFlow[4111111111111111, 12/26, John, Doe, 123 Elm St, Apt 4B, New York, NY, 10001, USA](1)" classname="tests.Test_4" time="8.295">
+    <system-out><![CDATA[Running test with data: cardNumber=5555555555554444, expiry=11/25, firstName=Jane, lastName=Smith, address1=456 Oak Rd, address2=, city=Los Angeles, state=CA, zip=90001, country=USA
+]]></system-out>
+  </testcase>
+  <testcase name="testCheckoutFlow[5555555555554444, 11/25, Jane, Smith, 456 Oak Rd, , Los Angeles, CA, 90001, USA](2)" classname="tests.Test_4" time="5.67">
+    <system-out><![CDATA[Running test with data: cardNumber=5555555555554444, expiry=11/25, firstName=Jane, lastName=Smith, address1=456 Oak Rd, address2=, city=Los Angeles, state=CA, zip=90001, country=USA
+⚠️ Validation error present, closing test case.
+]]></system-out>
+  </testcase>
+  <testcase name="testCheckoutFlow[5555555555554444, 11/25, Jane, Smith, 456 Oak Rd, , Los Angeles, CA, 90001, USA](2)" classname="tests.Test_4" time="2.988">
+    <system-out><![CDATA[Running test with data: cardNumber=1234567890123456, expiry=01/24, firstName=Broken, lastName=Card, address1=789 Pine Ln, address2=, city=Chicago, state=IL, zip=60601, country=USA
+⚠️ Validation error present, closing test case.
+]]></system-out>
+  </testcase>
+  <testcase name="testCheckoutFlow[1234567890123456, 01/24, Broken, Card, 789 Pine Ln, , Chicago, IL, 60601, USA](3)" classname="tests.Test_4" time="6.763">
+    <system-out><![CDATA[Running test with data: cardNumber=1234567890123456, expiry=01/24, firstName=Broken, lastName=Card, address1=789 Pine Ln, address2=, city=Chicago, state=IL, zip=60601, country=USA
+⚠️ Validation error present, closing test case.
+]]></system-out>
+  </testcase>
+  <testcase name="testCheckoutFlow[1234567890123456, 01/24, Broken, Card, 789 Pine Ln, , Chicago, IL, 60601, USA](3)" classname="tests.Test_4" time="10.266">
+    <system-out><![CDATA[🔻 Browser closed after all tests in class.
+⚠️ Validation error present, closing test case.
+]]></system-out>
+    <system-err><![CDATA[Sept 17, 2025 1:17:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 140
+Sept 17, 2025 1:17:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 140.0.7339.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testFindOwner[Doe](1)" classname="tests.Test_5" time="3.793">
+    <system-out><![CDATA[🔻 Browser closed after all tests in class.
+Opened clinic promo
+✅ Test completed for lastName = Doe
+]]></system-out>
+  </testcase>
+  <testcase name="testFindOwner[Doe](1)" classname="tests.Test_5" time="6.207">
+    <system-out><![CDATA[🔻 Browser closed after all tests in class.
+13:17:38.986 [TestNG-tests-2] ERROR io.qameta.allure.AllureLifecycle -- Could not add attachment: no test is running
+Opened clinic promo
+✅ Test completed for lastName = Doe
+]]></system-out>
+  </testcase>
+  <testcase name="testFindOwner[](2)" classname="tests.Test_5" time="2.991">
+    <system-out><![CDATA[Opened clinic promo
+✅ Test completed for lastName = 
+]]></system-out>
+  </testcase>
+  <testcase name="testFindOwner[](2)" classname="tests.Test_5" time="6.496">
+    <system-out><![CDATA[Opened clinic promo
+✅ Test completed for lastName = 
+]]></system-out>
+  </testcase>
+  <testcase name="testFindOwner[](3)" classname="tests.Test_5" time="3.84">
+    <system-out><![CDATA[Opened clinic promo
+✅ Test completed for lastName = 
+]]></system-out>
+  </testcase>
+  <testcase name="testFindOwner[](3)" classname="tests.Test_5" time="7.996">
+    <system-out><![CDATA[Opened clinic promo
+✅ Test completed for lastName = 
+]]></system-out>
+  </testcase>
+  <testcase name="testFindOwner[cena](4)" classname="tests.Test_5" time="2.128">
+    <system-out><![CDATA[Opened clinic promo
+⚠️ No owner found for lastName = cena
+]]></system-out>
+  </testcase>
+  <testcase name="testFindOwner[cena](4)" classname="tests.Test_5" time="6.436">
+    <system-out><![CDATA[Opened clinic promo
+✅ Test completed for lastName = cena
+]]></system-out>
+  </testcase>
+</testsuite>

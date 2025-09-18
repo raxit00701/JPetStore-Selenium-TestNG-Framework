@@ -1,0 +1,1 @@
+[{"name":"Jenkins","type":"jenkins","url":"http://localhost:9090/","buildOrder":12,"buildName":"pet_store_selenium #12","buildUrl":"http://localhost:9090/job/pet_store_selenium/12/","reportName":"AllureReport","reportUrl":"http://localhost:9090/job/pet_store_selenium/12/allure"}]

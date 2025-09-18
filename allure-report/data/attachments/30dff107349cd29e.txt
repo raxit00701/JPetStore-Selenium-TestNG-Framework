@@ -1,0 +1,1 @@
+{Platform.1=windows, Java.Version=21.0.6, Platform.2=windows, OS.Version=10.0, Browser.1=chrome-140.0.7339.80, Environment=QA, BaseURL=https://jpetstore.aspectran.com, Creator=Raxit Sharma, Browser.2=firefox-142.0.1}

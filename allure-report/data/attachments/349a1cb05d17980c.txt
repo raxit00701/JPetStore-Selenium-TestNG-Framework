@@ -1,0 +1,1 @@
+Recording discarded for pass/skip: tests.Test_1.testSignUp__20250917_131118_490.mov

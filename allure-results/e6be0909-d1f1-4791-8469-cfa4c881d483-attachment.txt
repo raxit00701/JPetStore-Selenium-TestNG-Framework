@@ -1,0 +1,1 @@
+tests.Test_1.testSignUp [shortpass2448389, pass, pass, Tom, Wilson, tom.wilson@example.com, 5551234567, 321 Pine St, , Boston, MA, 2108, USA, negative, Password too short]

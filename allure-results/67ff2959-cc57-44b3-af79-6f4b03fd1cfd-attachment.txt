@@ -1,0 +1,24 @@
+[WARNING] 1758197264203 : https://jpetstore.aspectran.com/ 7 The value "initial-scale" for key "width" is invalid, and has been ignored.
+[WARNING] 1758197264203 : https://jpetstore.aspectran.com/ 7 The key "1.0" is not recognized and ignored.
+[WARNING] 1758197266525 : https://jpetstore.aspectran.com/ 7 The value "initial-scale" for key "width" is invalid, and has been ignored.
+[WARNING] 1758197266525 : https://jpetstore.aspectran.com/ 7 The key "1.0" is not recognized and ignored.
+[WARNING] 1758197267191 : https://jpetstore.aspectran.com/account/signonForm 7 The value "initial-scale" for key "width" is invalid, and has been ignored.
+[WARNING] 1758197267192 : https://jpetstore.aspectran.com/account/signonForm 7 The key "1.0" is not recognized and ignored.
+[WARNING] 1758197269844 : https://jpetstore.aspectran.com/ 7 The value "initial-scale" for key "width" is invalid, and has been ignored.
+[WARNING] 1758197269844 : https://jpetstore.aspectran.com/ 7 The key "1.0" is not recognized and ignored.
+[WARNING] 1758197271318 : https://jpetstore.aspectran.com/categories/DOGS 7 The value "initial-scale" for key "width" is invalid, and has been ignored.
+[WARNING] 1758197271318 : https://jpetstore.aspectran.com/categories/DOGS 7 The key "1.0" is not recognized and ignored.
+[WARNING] 1758197272301 : https://jpetstore.aspectran.com/products/K9-BD-01 7 The value "initial-scale" for key "width" is invalid, and has been ignored.
+[WARNING] 1758197272301 : https://jpetstore.aspectran.com/products/K9-BD-01 7 The key "1.0" is not recognized and ignored.
+[WARNING] 1758197273182 : https://jpetstore.aspectran.com/products/K9-BD-01/items/EST-6 7 The value "initial-scale" for key "width" is invalid, and has been ignored.
+[WARNING] 1758197273182 : https://jpetstore.aspectran.com/products/K9-BD-01/items/EST-6 7 The key "1.0" is not recognized and ignored.
+[WARNING] 1758197274888 : https://jpetstore.aspectran.com/cart/viewCart 7 The value "initial-scale" for key "width" is invalid, and has been ignored.
+[WARNING] 1758197274888 : https://jpetstore.aspectran.com/cart/viewCart 7 The key "1.0" is not recognized and ignored.
+[WARNING] 1758197276538 : https://jpetstore.aspectran.com/order/newOrderForm 7 The value "initial-scale" for key "width" is invalid, and has been ignored.
+[WARNING] 1758197276538 : https://jpetstore.aspectran.com/order/newOrderForm 7 The key "1.0" is not recognized and ignored.
+[WARNING] 1758197278773 : https://jpetstore.aspectran.com/order/newOrder 7 The value "initial-scale" for key "width" is invalid, and has been ignored.
+[WARNING] 1758197278773 : https://jpetstore.aspectran.com/order/newOrder 7 The key "1.0" is not recognized and ignored.
+[WARNING] 1758197280331 : https://jpetstore.aspectran.com/order/viewOrder?orderId=40504&submitted=true 7 The value "initial-scale" for key "width" is invalid, and has been ignored.
+[WARNING] 1758197280331 : https://jpetstore.aspectran.com/order/viewOrder?orderId=40504&submitted=true 7 The key "1.0" is not recognized and ignored.
+[WARNING] 1758197282209 : https://jpetstore.aspectran.com/order/listOrders 7 The value "initial-scale" for key "width" is invalid, and has been ignored.
+[WARNING] 1758197282209 : https://jpetstore.aspectran.com/order/listOrders 7 The key "1.0" is not recognized and ignored.

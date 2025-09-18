@@ -1,0 +1,1 @@
+Recording discarded for pass/skip: tests.Test_4.testCheckoutFlow__20250918_172850_419.mov

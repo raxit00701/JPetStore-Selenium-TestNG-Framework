@@ -1,0 +1,5 @@
+johnwicky95878,password,repeatedPassword,firstName,lastName,email,phone,address1,address2,city,state,zip,country,testType,expectedResult
+testusersjosfojfsjo,Password123,Password123,John,Doe,john.doe@example.com,1234567890,123 Main St,Apt 4B,New York,NY,10001,USA,positive,
+invaliduserasdfoj,pass,pass123,Jane,Doe,jane.doe@invalid,123,456 Elm St,,Springfield,IL,62701,USA,negative,Invalid email format
+testuserasfjo,Password456,Password456,Mary,Smith,mary.smith@example.com,9876543210,789 Oak St,,Chicago,IL,60601,USA,positive,
+shortpass2448389,pass,pass,Tom,Wilson,tom.wilson@example.com,5551234567,321 Pine St,,Boston,MA,2108,USA,negative,Password too short

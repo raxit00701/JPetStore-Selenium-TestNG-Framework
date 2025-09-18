@@ -1,0 +1,6 @@
+[WARNING] 1758196244179 : https://jpetstore.aspectran.com/ 7 The value "initial-scale" for key "width" is invalid, and has been ignored.
+[WARNING] 1758196244179 : https://jpetstore.aspectran.com/ 7 The key "1.0" is not recognized and ignored.
+[WARNING] 1758196244854 : https://jpetstore.aspectran.com/account/signonForm 7 The value "initial-scale" for key "width" is invalid, and has been ignored.
+[WARNING] 1758196244854 : https://jpetstore.aspectran.com/account/signonForm 7 The key "1.0" is not recognized and ignored.
+[WARNING] 1758196247904 : https://jpetstore.aspectran.com/account/signonForm?retry=true 7 The value "initial-scale" for key "width" is invalid, and has been ignored.
+[WARNING] 1758196247904 : https://jpetstore.aspectran.com/account/signonForm?retry=true 7 The key "1.0" is not recognized and ignored.

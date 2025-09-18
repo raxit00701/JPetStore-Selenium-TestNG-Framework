@@ -1,0 +1,6 @@
+[WARNING] 1758095181616 : https://jpetstore.aspectran.com/ 7 The value "initial-scale" for key "width" is invalid, and has been ignored.
+[WARNING] 1758095181616 : https://jpetstore.aspectran.com/ 7 The key "1.0" is not recognized and ignored.
+[WARNING] 1758095183562 : https://jpetstore.aspectran.com/ 7 The value "initial-scale" for key "width" is invalid, and has been ignored.
+[WARNING] 1758095183562 : https://jpetstore.aspectran.com/ 7 The key "1.0" is not recognized and ignored.
+[WARNING] 1758095184249 : https://jpetstore.aspectran.com/catalog/searchProducts?keyword=fish 7 The value "initial-scale" for key "width" is invalid, and has been ignored.
+[WARNING] 1758095184249 : https://jpetstore.aspectran.com/catalog/searchProducts?keyword=fish 7 The key "1.0" is not recognized and ignored.

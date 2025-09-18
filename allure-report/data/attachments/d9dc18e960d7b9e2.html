@@ -1,0 +1,499 @@
+<html class="js " lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=initial-scale=1.0, user-scalable=no">
+    <meta name="google" content="notranslate">
+    <title>JPetStore Demo</title>
+    <meta name="description" content="JPetStore is a full-stack sample web application built on top of MyBatis 3, Aspectran 8.">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/foundation@6.9.0/css/aspectran.css">
+    <link rel="stylesheet" type="text/css" href="/css/jpetstore.css?20250227">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&amp;display=swap">
+    <script src="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/js/modernizr-custom.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/htmx.org@2.0.4" integrity="sha384-HGfztofotfshcF7+8n44JQL2oJmowVChPTg48S+jvZoztPfvwD79OC/LTtG6dMp+" crossorigin="anonymous"></script>
+    <link rel="mask-icon" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/img/aspectran-logo.svg" color="#4B555A">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/img/favicon-96x96.png">
+    <meta name="msapplication-TileImage" content="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/img/ms-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#4B555A">
+<meta class="foundation-mq" name="foundation-mq" content=""><style>      .htmx-indicator{opacity:0}      .htmx-request .htmx-indicator{opacity:1; transition: opacity 200ms ease-in;}      .htmx-request.htmx-indicator{opacity:1; transition: opacity 200ms ease-in;}      </style></head>
+<body id="top-of-page" class="plate solid" itemscope="" itemtype="https://schema.org/WebPage">
+<nav id="navigation" class="">
+    <div class="title-bar" data-responsive-toggle="gnb-menu" data-hide-for="large" style="display:none">
+        <div class="title-bar-left">
+            
+                <a class="logo" href="https://public.aspectran.com/" title="Aspectran"><img src="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/img/aspectran-site-logo.png" alt="Aspectran"></a>
+            
+            
+        </div>
+        <div class="title-bar-center">
+            <a href="#top-of-page">Aspectran</a>
+        </div>
+        <div class="title-bar-right" data-toggle="gnb-menu">
+            <a class="menu-icon" title="Menu"></a>
+        </div>
+    </div>
+    <div class="top-bar" id="gnb-menu" style="">
+        <div class="grid-container ">
+            <div class="top-bar-logo">
+                <div class="circle">
+                    
+                        <a class="logo" href="https://public.aspectran.com/" title="Aspectran"><img src="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/img/aspectran-site-logo.png" alt="Aspectran"></a>
+                    
+                    
+                </div>
+            </div>
+            <div class="top-bar-left">
+                <ul class="dropdown menu" data-dropdown-menu="8z8i2n-dropdown-menu" role="menubar">
+                    <li role="none" class="is-dropdown-submenu-parent opens-right">
+                        <a role="menuitem" aria-haspopup="true" aria-label="Get Involved">Get Involved</a>
+                        <ul class="submenu menu vertical is-dropdown-submenu first-sub" data-submenu="" role="menubar">
+                            <li role="none" class="is-submenu-item is-dropdown-submenu-item"><a href="https://github.com/aspectran/aspectran-jpetstore" role="menuitem" class="external" target="_blank">GitHub</a></li>
+                        </ul>
+                    </li>
+                    <li role="none" class="is-dropdown-submenu-parent opens-right">
+                        <a title="Sample applications built on Aspectran" role="menuitem" aria-haspopup="true" aria-label="More Sample Apps">More Sample Apps</a>
+                        <ul class="submenu menu vertical is-dropdown-submenu first-sub" data-submenu="" role="menubar">
+                            
+                                <li role="none" class="is-submenu-item is-dropdown-submenu-item"><a href="https://demo.aspectran.com/" role="menuitem">Aspectran Demo</a></li>
+                            
+                            
+                            
+                                <li role="none" class="is-submenu-item is-dropdown-submenu-item"><a href="https://petclinic.aspectran.com/" role="menuitem">PetClinic Demo</a></li>
+                            
+                            
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="top-bar-right">
+                <ul class="dropdown menu" data-dropdown-menu="12q2ha-dropdown-menu" role="menubar">
+                    
+                        <li role="none"><a href="https://public.aspectran.com/monitoring/#jpetstore" target="_blank" role="menuitem">Monitoring</a></li>
+                    
+                    
+                </ul>
+                <div class="quick-search-box">
+                    <form name="google_quick_search">
+                        <div class="input-group">
+                            <input class="input-group-field" type="text" name="keyword" placeholder="Search">
+                            <div class="input-group-button">
+                                <button type="submit" class="button hollow"><i class="fi-magnifying-glass"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<section itemscope="" itemtype="https://schema.org/Article">
+    <div id="masthead">
+        <div class="grid-container ">
+            <div class="grid-x">
+                <div class="small-12 cell">
+                    <header>
+                        <p class="subheadline" itemprop="alternativeHeadline">
+                            A full-stack sample web application built on top of Aspectran 8 and MyBatis 3</p>
+                        <h1 itemprop="headline">JPetStore Demo</h1>
+                        <p class="teaser" itemprop="description">
+                            The goal of the JPetStore Demo App is to provide
+                            and demonstrate a sample web application that leverages Aspectran and MyBatis.
+                        </p>
+                    </header>
+                    <div class="hexagons">
+                        <div class="hexagon hex1"></div>
+                        <div class="hexagon hex2"></div>
+                        <div class="hexagon hex3"></div>
+                        <div class="hexagon hex5"></div>
+                        <div class="hexagon hex6"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-container grid-x breadcrumbs-bar ">
+            <div class="cell">
+                <nav role="navigation" aria-label="You are here:">
+                    <ul class="breadcrumbs" itemprop="breadcrumb">
+                        
+                            <li><a href="https://public.aspectran.com/">Sample Apps</a></li>
+                        
+                        
+                        <li><a href="/">JPetStore Demo</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="window" class="grid-container" style="padding:0;">
+        
+            
+
+
+
+
+
+
+
+<div id="Header">
+
+	<div id="Logo">
+		<div id="LogoContent">
+			<a href="/"><img src="/images/logo-topbar.gif"></a>
+		</div>
+	</div>
+
+	<div id="Search">
+		<div id="SearchContent">
+			<form action="/catalog/searchProducts">
+				<div class="input-group">
+					<input class="input-group-field" type="text" name="keyword" placeholder="Product Search">
+					<div class="input-group-button">
+						<button type="submit" class="button">Search</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div id="Menu">
+		<div class="MenuContent">
+			<a href="/cart/viewCart">
+				<img align="middle" name="img_cart" src="/images/cart.gif">
+				</a>
+			
+				<span class="separator">|</span>
+				<a href="/account/signonForm">Sign In</a>
+				<span class="separator">|</span>
+				<a href="/account/newAccountForm">Sign Up</a>
+			
+			
+		</div>
+		<div class="MenuContent Submenu">
+			
+				<a href="https://public.aspectran.com/monitoring/#jpetstore" target="_blank" title="View logs with AppMon"><i class="fi-foot"></i> AppMon</a>
+			
+			
+			<span class="separator">|</span>
+			<a href="/help.html">?</a>
+		</div>
+	</div>
+
+	<div id="QuickLinks">
+	
+		<a href="/categories/FISH">Fish</a>
+	
+		<a href="/categories/DOGS">Dogs</a>
+	
+		<a href="/categories/REPTILES">Reptiles</a>
+	
+		<a href="/categories/CATS">Cats</a>
+	
+		<a href="/categories/BIRDS">Birds</a>
+	
+	</div>
+</div>
+
+<div id="Content">
+
+
+
+
+<div id="Signon">
+
+	<form method="post" action="/account/signon">
+		<input type="hidden" name="referer" value="">
+
+		<div class="panel">
+			<h5>Please enter your username and password.</h5>
+			<label>Username: <input type="text" name="username" value="j2ee"></label>
+			<label>Password: <input type="password" name="password" value="j2ee"></label>
+			<div class="button-bar">
+				<button type="submit" class="button">Login</button>
+			</div>
+			
+		</div>
+
+	</form>
+
+	<div class="panel register">
+		Need a username and password?
+		<a href="/account/newAccountForm">Register Now!</a>
+	</div>
+
+</div>
+
+
+</div>
+
+<div id="Footer">
+	<div id="PoweredBy">
+		<a href="https://aspectran.com/">aspectran.com</a><br>
+		<a href="https://www.mybatis.org" class="external" target="_blank">mybatis.org</a>
+	</div>
+	<div id="Banner">
+		
+	</div>
+</div>
+
+
+        
+    </div>
+    
+</section>
+<div class="grid-container ">
+    <div id="up-to-top" class="grid-x">
+        <div class="small-12 cell text-right">
+            <a class="iconfont" href="#top-of-page"></a>
+        </div>
+    </div>
+</div>
+<footer id="footer-content">
+    <div id="footer">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="medium-2 large-1 cell hide-for-small-only t5">
+                    <h5><a class="logo" href="https://aspectran.com/en/aspectran/" title="Aspectran"><img src="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/img/aspectran-logo-grey-x100.png" width="100" height="100" alt="Aspectran" title="Aspectran"></a></h5>
+                </div>
+                <div class="medium-4 large-4 cell">
+                    <a href="https://aspectran.com/en/aspectran/"><h5>About Aspectran</h5></a>
+                    <p><a href="https://aspectran.com/en/aspectran/">Aspectran is a lightweight, high‑performance framework for building both simple shell applications and large enterprise web services on the JVM. </a></p>
+                </div>
+                <div class="small-6 medium-3 large-3 large-offset-1 cell">
+                    <h5>Get Involved</h5>
+                    <ul class="no-bullet">
+                        <li class="icon-github"> <a href="https://github.com/aspectran" target="_blank" title="" class="external">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="subfooter">
+        <div class="grid-container">
+            <nav class="grid-x b30">
+                <section id="subfooter-left" class="medium-6 cell credits">
+                    <p>Copyright © 2018-present The Aspectran Project</p>
+                </section>
+                <section id="subfooter-right" class="medium-6 cell social-icons text-right">
+                    <a href="https://aspectran.com">Powered by Aspectran 9.0.0-SNAPSHOT</a>
+                </section>
+            </nav>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/foundation@6.9.0/js/foundation.min.js"></script>
+<script>
+    $(document).foundation();
+    $(function () {
+        let $win = $(window);
+        let $nav = $("#navigation");
+        let navHeight = Math.abs($("#masthead").height() - $nav.height());
+        let lastScrollTop = 0;
+        let scrolled;
+        let navFixed;
+        $win.scroll(function () {
+            scrolled = true;
+        });
+        setInterval(function () {
+            if (scrolled) {
+                let scrollTop = $win.scrollTop();
+                if (Math.abs(lastScrollTop - scrollTop) <= 10) {
+                    return;
+                }
+                if (scrollTop <= navHeight) {
+                    if (navFixed) {
+                        $nav.removeClass("fixed");
+                        navFixed = false;
+                    }
+                } else if (scrollTop > lastScrollTop) {
+                    if (navFixed) {
+                        $nav.removeClass("fixed");
+                        navFixed = false;
+                    }
+                } else {
+                    if (!navFixed) {
+                        if ($nav.hasClass("immediate")) {
+                            $nav.removeClass("immediate")
+                        } else {
+                            $nav.addClass("fixed");
+                            $nav.hide().fadeIn(500);
+                            navFixed = true;
+                        }
+                    }
+                }
+                lastScrollTop = scrollTop;
+                scrolled = false;
+            }
+        }, 200);
+        /* google search */
+        $("form[name=google_quick_search]").submit(function (event) {
+            window.open("https://www.google.com/search?q=" + this.keyword.value + "+site:https%3A%2F%2Faspectran.com");
+            event.preventDefault();
+        });
+    });
+</script>
+<script>
+    $(function () {
+        $("#masthead h1, article h1, article h2, article h3").each(function (index, item) {
+            let tagn = item.localName;
+            let anchor = "top-of-page";
+            if (tagn !== "h1") {
+                anchor = "anchor-" + (index + 1);
+                $(this).before("<a class='toc-anchor " + anchor + "' id='" + anchor + "' name='" + anchor + "'></a>");
+            }
+            $("<li class='toc-" + tagn + "'></li>")
+                .append($("<a anchor='" + anchor + "' href='#" + anchor + "'/>").text($(item).text()))
+                .appendTo("#toc ul");
+        });
+    });
+</script>
+<script>
+    $(function () {
+        $(".lazy-sticky").each(function () {
+            const $win = $(window);
+            const $this = $(this);
+            const baseOffsetTop = $this.offset().top;
+            const upToTopHeight = $("#up-to-top").height() + 30 + 60;
+            let footerHeight = $("#footer-content").height() + upToTopHeight;
+            let offsetTop = 0;
+            let thisHeight = $this.height();
+            let winHeight = $win.height();
+            let scrollTimer = null;
+            let immediate = false;
+            $this.find("#toc ul a").click(function () {
+                immediate = true;
+                let anchor = $(this).attr("anchor");
+                if (anchor !== "top-of-page") {
+                    $("#navigation").addClass("immediate");
+                }
+            });
+            $win.scroll(function () {
+                let scrollTop = $win.scrollTop();
+                if (scrollTop < baseOffsetTop) {
+                    if (scrollTimer) {
+                        clearInterval(scrollTimer);
+                        scrollTimer = null;
+                    }
+                    scrollTimer = setInterval(function () {
+                        if (offsetTop !== 0) {
+                            $this.css({
+                                top: 0
+                            });
+                        }
+                        offsetTop = 0;
+                        clearInterval(scrollTimer);
+                        scrollTimer = null;
+                        immediate = false;
+                    }, immediate ? 250 : 500);
+                } else {
+                    let topBarHeight = $("#navigation.fixed .top-bar").height()||0;
+                    if (immediate || (scrollTop > baseOffsetTop + topBarHeight + offsetTop + thisHeight - 20) ||
+                        (scrollTop < baseOffsetTop + topBarHeight + offsetTop)) {
+                        if ($this.offset().left >= 15 && $this.width() < 500) {
+                            if (scrollTimer) {
+                                clearInterval(scrollTimer);
+                                scrollTimer = null;
+                            }
+                            scrollTimer = setInterval(function () {
+                                topBarHeight = $("#navigation.fixed .top-bar").height()||0;
+                                scrollTop = $win.scrollTop();
+                                if (scrollTop < baseOffsetTop + topBarHeight) {
+                                    scrollTop = 0;
+                                } else {
+                                    scrollTop = scrollTop - baseOffsetTop + topBarHeight + 30;
+                                }
+                                if (scrollTop > $(document).height() - footerHeight - thisHeight - baseOffsetTop + topBarHeight) {
+                                    scrollTop = $(document).height() - footerHeight - thisHeight - baseOffsetTop + topBarHeight;
+                                }
+                                offsetTop = scrollTop;
+                                $this.css({
+                                    position: "relative"
+                                });
+                                $this.animate({
+                                    top: scrollTop + "px"
+                                }, 300);
+                                clearInterval(scrollTimer);
+                                scrollTimer = null;
+                                winHeight = $win.height();
+                                thisHeight = $this.height();
+                                footerHeight = $("#footer-content").height() + upToTopHeight;
+                                immediate = false;
+                            }, immediate ? 250 : 500);
+                        }
+                    }
+                }
+            });
+            $win.resize(function () {
+                if ($this.offset().left < 15 || $this.width() >= 500) {
+                    clearInterval(scrollTimer);
+                    $this.css("top", 0);
+                } else {
+                    $win.scroll();
+                }
+            });
+            setTimeout(function () {
+                if ($win.scrollTop() > baseOffsetTop) {
+                    offsetTop = $win.scrollTop();
+                    $win.scroll();
+                }
+            }, 150);
+        });
+    });
+</script>
+<script>
+    /* Creating custom :external selector */
+    $.expr[':'].external = function (obj) {
+        return obj.href
+            && !obj.href.match(/aspectran.com\//)
+            && !obj.href.match(/^javascript:/)
+            && !obj.href.match(/^mailto:/)
+            && (obj.hostname !== location.hostname);
+    };
+    $(function () {
+        /* Add 'external' CSS class to all external links */
+        $('a:external').addClass('external');
+        /* turn target into target=_blank for elements w external class */
+        $('.external').attr('target','_blank');
+    })
+</script>
+<script>
+    $(function () {
+        let menuitem = $("#gnb-menu .top-bar-left .dropdown li a[href='" + location.pathname + "']").last();
+        if (menuitem.length > 0) {
+            let arr = [];
+            arr.push({'name': menuitem.text(), 'href': null});
+            menuitem.parentsUntil(".dropdown > li:eq(0)").each(function () {
+                if ($(this).hasClass("menu")) {
+                    let a2 = $(this).prev();
+                    if (a2.is("a")) {
+                        arr.push({'name': a2.text(), 'href': a2.attr("href") || ""});
+                    }
+                }
+            });
+            arr.reverse();
+            for (let i in arr) {
+                let item = arr[i];
+                if (i < arr.length - 1) {
+                    $(".breadcrumbs").append("<li><a href='" + item.href + "'>" + item.name + "</a></li>");
+                } else {
+                    $(".breadcrumbs").append("<li><span class='show-for-sr'>Current: </span> <span class='current'>" + item.name + "</span></li>");
+                }
+            }
+        }
+    });
+</script>
+
+
+</body></html>
