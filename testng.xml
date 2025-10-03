@@ -21,5 +21,12 @@
             <package name="tests"/>
         </packages>
     </test>
-
+<!-- Edge Tests -->
+    <test name="EdgeTest">
+        <parameter name="browser" value="edge"/>
+        <packages>
+            <package name="tests"/>
+        </packages>
+    </test>
+   <!-- Edge Tests -->
 </suite>
