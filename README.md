@@ -13,7 +13,7 @@ Dynamic Allure reporting (graphs, logs, browser console, env details)
 
 Automatic video clips & screenshots on failures
 
-Cross-browser parallel execution (Chrome, Firefox)
+Cross-browser parallel execution (Chrome, Firefox, Edge)
 
 Scalable Page Object Factory pattern
 
@@ -178,6 +178,7 @@ Badge in README auto-updates:
 💼 QA Automation Engineer Enthusiast
 
 🌐 GitHub Profile
+
 
 
 
